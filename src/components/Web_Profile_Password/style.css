@@ -1,0 +1,37 @@
+.wpp-div-wrapper {
+  display: flex;
+  background-color: #d4d4d4;
+  border-radius: 10px;
+  height: 50px;
+  position: relative;
+  width: 350px;
+  text-align: center;
+}
+
+.wpp-div-wrapper .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  margin-left: 34px;
+  justify-content: center;
+  top: 12px;
+  width: 59px;
+}
+
+.wpp-div-wrapper.disabled-true {
+  background-color: #d4d4d4;
+}
+
+.wpp-div-wrapper.disabled-false {
+  background-color: #267bf1b2;
+}
+
+.wpp-div-wrapper:hover {
+  background-color: #267bf1;
+  box-shadow: 0px 2px 5px #0000001f;
+}

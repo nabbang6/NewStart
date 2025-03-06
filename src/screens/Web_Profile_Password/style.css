@@ -1,0 +1,406 @@
+.profile-password {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* 반응형 웹 */
+.profile-password .div-3 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+@media (max-width: 1511px) {
+  .profile-password .div-3 {
+    width: 100%;
+    max-width: 390px;
+  }
+}
+
+@media (min-width: 1512px) {
+  .profile-password .div-3 {
+    width: 100%;
+    max-width: 1512px;
+  }
+}
+
+.profile-password .frame-for-all-mobile-wpp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 390px;
+  width: 100%;
+  min-height: 94vh;
+  position: relative;
+  gap: 6vh;
+}
+
+.profile-password .frame-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+}
+
+/* 모바일 화면 (일부분은 PC 화면에서도 재사용됨) */
+.profile-password .frame-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+}
+
+.profile-password .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 58px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .view-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 68px;
+  margin-bottom: -10px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .view {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .text-wrapper-7 {
+  color: #1c1b1f;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 120px;
+}
+
+.profile-password .line {
+  height: 1px;
+  margin-bottom: -0.2px;
+  position: relative;
+  width: 350px;
+}
+
+.profile-password .frame-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 68px;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .frame-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 58px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .view-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  width: 350px;
+}
+
+.profile-password .text-wrapper-9 {
+  color: #1c1b1f;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 101px;
+}
+
+.profile-password .text-input::placeholder {
+  color: #a09cab;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.profile-password .text-input-for-pc {
+  background-color: transparent;
+  border: 0;
+  color: #a09cab;
+  flex: 0 0 auto;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .text-input-for-pc::placeholder {
+  color: #a09cab;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.profile-password .frame-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .text-wrapper-11 {
+  color: #1c1b1f;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 160px;
+}
+
+.profile-password .frame-50-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 10px;
+  position: relative;
+}
+
+.profile-password .frame-50 {
+  font-size: 16px !important;
+}
+
+.profile-password .title-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  margin-top: -10px;
+  padding: 8px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .title-2 {
+  color: var(--bananistyle);
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.profile-password .component-174 {
+  position: fixed !important;
+  bottom: 5%;
+  align-items: center;
+}
+
+/* PC용 화면 */
+.profile-password .frame-8 {
+  position: absolute;
+  top: 5vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.profile-password .title-box {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .title-frame {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.profile-password .title-3 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.profile-password .frame-9 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .div-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.profile-password .text-wrapper-12 {
+  color: #1c1b1f;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.profile-password .text-input {
+  background-color: transparent;
+  border: 0;
+  color: #a09cab;
+  flex: 0 0 auto;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.profile-password .line-2 {
+  height: 1px;
+  margin-bottom: -0.2px;
+  position: relative;
+  width: 497px;
+}
+
+.profile-password .button {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.profile-password .component-175 {
+  font-size: 20px !important;
+  left: 192px !important;
+  white-space: nowrap !important;
+  width: unset !important;
+}
+
+/* PC용 탭 메뉴 */
+.profile-password .menu-instance {
+  left: 0 !important;
+  position: fixed !important;
+  top: 0 !important;
+}
+
+.profile-password .instance-node {
+  color: #a09cab !important;
+}
+
+.profile-password .menu-2 {
+  color: #000000 !important;
+}
+
+.error-message {
+  color: #b3261e;
+  font-size: 13px;
+  top: 70px;
+  position: absolute;
+  padding: 0;
+  left: 0;
+}
+
+.error-message-pc {
+  color: #b3261e;
+  font-size: 16px;
+  top: 70px;
+  position: absolute;
+  padding: 0;
+  left: 0;
+}

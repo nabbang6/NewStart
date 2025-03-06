@@ -1,0 +1,171 @@
+  .web-signin {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /* 반응형 웹 */
+  .web-signin .frame-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  @media (max-width: 1511px) {
+    .web-signin .frame-wrapper { width: 100%; max-width: 390px; }
+  }
+  
+  @media (min-width: 1512px) {
+    .web-signin .frame-wrapper { width: 100%; max-width: 1512px; }
+  }
+  
+  
+  /* PC용 화면 (모바일에서도 대부분 사용) */
+  .web-signin .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vh;
+    /* position: relative;
+    left: 596px;
+    top: 325px; */
+    width: 100%;
+  }
+  
+  .web-signin .frame-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 455px;
+    width : 100%;
+    max-height:100px ;
+    height: 100%;
+  }
+  
+  .web-signin .title {
+    color: var(--bananistyle);
+    font-family: "Inter", Helvetica;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 50px;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .web-signin .p {
+    color: #267bf1;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .web-signin .frame-4 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    position: relative;
+    max-width: 300px;
+    width : 100%
+  }
+  
+  .web-signin .div-wrapper {
+    align-items: center;
+    background-color: #267bf1;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #00000040;
+    display: flex;
+    gap: 10px;
+    height: 60px;
+    justify-content: center;
+    padding: 13px 96px;
+    position: relative;
+    width: 300px;
+  }
+  
+  .web-signin .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  /* 모바일만을 위한 스타일링 */
+  .web-signin .frame-for-mobile-all-center {
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25vh;
+  }
+
+  .web-signin .frame-3-for-mobile { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height:63px;
+  }
+
+  .web-signin .p-for-mobile {
+    justify-content: stretch;
+    color: #267bf1;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+  }
+
+  .web-signin .frame-4-for-mobile { 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 280px;
+  }
+
+  .web-signin .button-for-mobile {
+    width : 280px;
+  }
+
+  .web-signin .button-text-for-mobile {
+    font-size : 17px;
+  }
+
+  .web-signin .classNameforpadding {
+    padding-left: 7px;
+  }
+
+  .web-signin .text-wrapper-3-for-mobile {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  .web-signin .signupbutton-for-mobile {
+    font-size: 17px
+  }

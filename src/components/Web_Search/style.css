@@ -1,0 +1,135 @@
+  /* SearchBar */
+  .search-bar .rectangle-3 {
+    align-self: stretch;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 28px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .search-bar .searchbar-contents-for-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50px
+  }
+
+  .search-bar .text-wrapper-2 {
+    color: black;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    border: 0;
+    width: 90%;
+  }
+
+  .search-bar .text-wrapper-2::placeholder {
+    color: #a09cab;
+  }
+  
+  .search-bar .search-icon-for-search-bar {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .search-bar .searchbar-search-record-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap : 30px;
+    padding-bottom: 20px;
+  }
+
+  .search-bar .dynamic-div-creator-for-searchbar {
+    display: flex;
+    justify-content: flex-start;
+    
+    font-size: 14px;
+    color: #267BF1;
+    gap: 10px;
+    width:100%;
+  }
+
+  .search-bar .record-timer-icon {
+    height: 17.5px;
+    position: relative;
+    width: 17.5px;
+  }
+
+
+  .search-bar .search-record-line {
+    height: 1px;
+    position: relative;
+    width: 100%;
+  }
+
+
+  
+  .search-bar .text-wrapper-3 {
+    color: #267bf1b2;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.50px;
+    line-height: 24px;
+    position: relative;
+    width: 94px;
+  }
+  
+  .search-bar .frame-8 {
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    height: 56px;
+    left: 10px;
+    padding: 0px 25px;
+    position: absolute;
+    top: 127px;
+    width: 530px;
+  }
+  
+  .search-bar .line-2 {
+    height: 1px;
+    left: 21px;
+    object-fit: cover;
+    position: absolute;
+    top: 131px;
+    width: 499px;
+  }
+  
+  .search-bar {
+    width:566px;
+  }
+  
+  .search-bar.property-1-0-hover .overlap-group-3 {
+    height: 83px;
+  }
+  
+  .search-bar.property-1-0-default .overlap-group-3 {
+    height: 83px;
+  }
+  
+  .search-bar.property-1-0-click .overlap-group-3 {
+    height: 205px;
+  }
+  
+  .search-bar.property-1-0-hover .rectangle-3 {
+    border-color: #a09cab80;
+    box-shadow: 0px 2px 5px #0000001f;
+  }
+  
+  .search-bar.property-1-0-default .rectangle-3 {
+    border-color: #a09cab;
+  }
+  
+  .search-bar.property-1-0-click .rectangle-3 {
+    border-color: #a09cab;
+  }
+  

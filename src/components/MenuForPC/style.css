@@ -1,0 +1,214 @@
+/* bookmarktab style */
+.for-pc-menu-bookmark-tab {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  height: 49px;
+  padding: 0px 13px;
+  position: relative;
+  width: 249px;
+}
+
+.for-pc-menu-bookmark-tab .for-pc-menu-bookmark-tab-instance {
+  height: 24px;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 24px;
+}
+
+.for-pc-menu-bookmark-tab .for-pc-menu-bookmark-tab-instance-filled {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.for-pc-menu-bookmark-tab .for-pc-menu-bookmark-tab-text-wrapper {
+  color: #a09cab;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: 159px;
+}
+
+.for-pc-menu-bookmark-tab .yesbookmarkis {
+  color: #000000;
+}
+
+.for-pc-menu-bookmark-tab.state-4-hover {
+  background-color: #d6d6d680;
+  border-radius: 10px;
+}
+
+/* HomeTabStyle */
+.for-pc-menu-home-tab {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  height: 48px;
+  padding: 0px 13px;
+  position: relative;
+  width: 249px;
+}
+
+.for-pc-menu-home-tab .for-pc-menu-home-tab-instance {
+  height: 24px;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 24px;
+}
+
+.for-pc-menu-home-tab .for-pc-menu-home-tab-filled {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.for-pc-menu-home-tab .for-pc-menu-home-tab-text-wrapper {
+  color: #a09cab;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.for-pc-menu-home-tab .yeshomeis {
+  color: #000000;
+}
+
+.for-pc-menu-home-tab:hover {
+  background-color: #dadbd680;
+  border-radius: 10px;
+}
+
+/* ProfileTabStyle */
+.for-pc-menu-profile-tab {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  height: 48px;
+  padding: 0px 13px;
+  position: relative;
+  width: 249px;
+}
+
+.for-pc-menu-profile-tab .for-pc-menu-profile-icon {
+  height: 24px;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 24px;
+}
+
+.for-pc-menu-profile-tab .for-pc-menu-profile-text-wrapper {
+  color: #a09cab;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.for-pc-menu-profile-tab .yesprofileis {
+  color: #000000;
+}
+
+.for-pc-menu-profile-tab.state-6-hover {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+}
+
+/* SearchTabStyle */
+.for-pc-menu-search-tab {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  height: 48px;
+  padding: 0px 13px;
+  position: relative;
+  width: 249px;
+}
+
+.for-pc-menu-search-tab .for-pc-menu-search-tab-icon {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.for-pc-menu-search-tab .for-pc-menu-search-tab-text-wrapper {
+  color: #a09cab;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.for-pc-menu-search-tab .yessearchis {
+  color: #000000;
+}
+
+.for-pc-menu-search-tab.state-5-hover {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+}
+
+/* Menu style */
+.for-pc-menu-frame {
+  max-height: 1525px;
+  height: 100%;
+  width: 397px;
+  position: fixed;
+}
+
+.for-pc-menu-frame .for-pc-menu-frame-overlap-group {
+  background-color: #ffffff;
+  border-color: #e8eaee;
+  border-right-style: solid;
+  border-right-width: 2px;
+  max-height: 1504px;
+  height: 99vh;
+  left: -2px;
+  position: fixed;
+  top: -2px;
+  width: 401px;
+}
+
+.for-pc-menu-frame .for-pc-menu-frame-div {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  left: 52px;
+  position: fixed;
+  top: 174px;
+  width: 249px;
+}
+
+.for-pc-menu-frame .for-pc-menu-frame-title {
+  color: var(--bananistyle);
+  font-family: "Inter", Helvetica;
+  font-size: 48px;
+  font-weight: 800;
+  left: 52px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: fixed;
+  top: 81px;
+  width: 280px;
+}

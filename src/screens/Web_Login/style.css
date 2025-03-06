@@ -1,0 +1,213 @@
+.login {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* 반응형 웹 */
+.login .div {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 1511px) {
+  .login .div {
+    width: 100%;
+    max-width: 390px;
+  }
+}
+
+@media (min-width: 1512px) {
+  .login .div {
+    width: 100%;
+    max-width: 1512px;
+  }
+}
+
+/* 모바일용 화면 (대부분 PC에서도 공통으로 씀) */
+.login .frame {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 390px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.login .frame-for-top-5vh {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 5vh;
+  gap: 7vh;
+  max-width: 390px;
+  width: 100%;
+}
+
+.login .title-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 8px 16px;
+  position: relative;
+  width: 390px;
+}
+
+.login .title {
+  color: var(--bananistyle);
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.login .frame-wrapper {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  padding: 0px 16px;
+  width: 100%;
+}
+
+.login .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.login .view {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  width: 100%;
+}
+
+.login .text-wrapper-2 {
+  align-self: stretch;
+  color: #1c1b1f;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.login .text-input {
+  align-self: stretch;
+  background-color: transparent;
+  border: 0;
+  color: #a09cab;
+  flex: 0 0 auto;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.login .line {
+  align-self: stretch;
+  height: 1px;
+  margin-bottom: -0.2px;
+  position: relative;
+  width: 100%;
+}
+
+.login .element {
+  align-self: stretch;
+  background-color: transparent;
+  border: 0;
+  color: #a09cab;
+  flex: 0 0 auto;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.login .component-87 {
+  width: 95%;
+  max-width: 380px;
+  position: absolute;
+  bottom: 5vh;
+}
+
+/* PC용 화면 */
+.login .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  min-height: 450px;
+  min-width: 380px;
+  position: absolute;
+  top: 15vh;
+}
+
+.login .title-2 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 352px;
+}
+
+.login .title-3 {
+  color: var(--bananistyle);
+  font-family: "Inter", Helvetica;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.login .text-wrapper-3 {
+  color: #267bf1;
+  font-family: "Inter", Helvetic;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

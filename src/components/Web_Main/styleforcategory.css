@@ -1,0 +1,131 @@
+.web-main-menu-bar .frame-2 {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden; /* 드래그로 가로 스크롤 가능한 영역 */
+}
+
+.web-main-menu-bar .menu-tab {
+  align-items: center;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 122px;
+}
+
+.web-main-menu-bar .img {
+  align-self: stretch;
+  height: 2px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 100%;
+}
+
+.web-main-menu-bar .text-wrapper-2 {
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: -10.5px;
+  margin-right: -10.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 143px;
+  color: #a09cab;
+}
+
+.web-main-menu-bar .text-wrapper-3 {
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: -10.5px;
+  margin-right: -10.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 143px;
+  color: #a09cab;
+}
+
+.web-main-menu-bar .text-wrapper-4 {
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: -10.5px;
+  margin-right: -10.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 143px;
+  color: #a09cab;
+}
+
+.web-main-menu-bar .text-wrapper-5 {
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: -10.5px;
+  margin-right: -10.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 143px;
+  color: #a09cab;
+}
+
+.web-main-menu-bar .text-wrapper-6 {
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: -10.5px;
+  margin-right: -10.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 143px;
+  color: #a09cab;
+}
+
+.web-main-menu-bar .text-wrapper-7 {
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: -10.5px;
+  margin-right: -10.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 143px;
+  color: #a09cab;
+}
+
+.web-main-menu-bar.politics .text-wrapper-2 {
+  color: #267bf1;
+}
+.web-main-menu-bar.economy .text-wrapper-3 {
+  color: #267bf1;
+}
+.web-main-menu-bar.social .text-wrapper-4 {
+  color: #267bf1;
+}
+.web-main-menu-bar.life .text-wrapper-5 {
+  color: #267bf1;
+}
+.web-main-menu-bar.it .text-wrapper-6 {
+  color: #267bf1;
+}
+.web-main-menu-bar.world .text-wrapper-7 {
+  color: #267bf1;
+}

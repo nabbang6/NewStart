@@ -1,0 +1,114 @@
+/* headlinestyle */
+.web-main-headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid;
+  border-color: #b1b1b1;
+  border-radius: 10px;
+  width: 358px;
+  height: 133px;
+
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+
+.web-main-headline .number {
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  letter-spacing: -5.12px;
+  line-height: 0.1px;
+  position: relative;
+  text-align: center;
+  width: 66px;
+  font-size: 48px;
+}
+
+.web-main-headline .text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0 0 auto; /* 여기서만 이 거 엄청중요하네.. */
+
+  position: relative;
+  width: 290px;
+}
+
+.web-main-headline .headlinetextwrapper {
+  display: flex;
+  align-items: center;
+
+  padding-left: 10px;
+  height: 85px;
+}
+
+.web-main-headline .label {
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.web-main-headline .label-2 {
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 16px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+  position: relative;
+  top: 7px;
+  padding-left: 10px;
+}
+
+.web-main-headline.state-0-click {
+  background-color: #267bf1;
+  box-shadow: 0px 2px 5px #0000001f;
+}
+
+.web-main-headline.state-0-default {
+  background-color: #ffffff;
+}
+
+.web-main-headline.state-0-hover {
+  background-color: #267bf1;
+}
+
+.web-main-headline.state-0-click .number {
+  color: #ffffff;
+}
+
+.web-main-headline.state-0-default .number {
+  color: #267bf1;
+}
+
+.web-main-headline.state-0-hover .number {
+  color: #ffffff;
+}
+
+.web-main-headline.state-0-click .label {
+  color: #ffffff;
+}
+
+.web-main-headline.state-0-default .label {
+  color: var(--bananistyle);
+}
+
+.web-main-headline.state-0-hover .label {
+  color: #ffffff;
+}
+
+.web-main-headline.state-0-click .label-2 {
+  color: #dadbd6;
+}
+
+.web-main-headline.state-0-default .label-2 {
+  color: #267bf1;
+}
+
+.web-main-headline.state-0-hover .label-2 {
+  color: #dadbd6;
+}

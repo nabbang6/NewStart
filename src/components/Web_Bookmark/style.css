@@ -1,0 +1,201 @@
+  /* X */
+  .x {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .x.thirty-two {
+    height: 32px;
+    width: 32px;
+  }
+  
+  .x.forty {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .x.twenty {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .x.sixteen {
+    height: 16px;
+    width: 16px;
+  }
+  
+  .x.forty-eight {
+    height: 48px;
+    width: 48px;
+  }
+  
+  .x.twenty-four {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Menu */
+  .web-bookmark-menu {
+    height: 1525px;
+    width: 397px;
+  }
+  
+  .web-bookmark-menu .overlap-group {
+    background-color: #ffffff;
+    border-color: #e8eaee;
+    border-right-style: solid;
+    border-right-width: 2px;
+    height: 1504px;
+    left: -2px;
+    position: relative;
+    top: -2px;
+    width: 401px;
+  }
+  
+  .web-bookmark-menu .div-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    left: 52px;
+    position: absolute;
+    top: 174px;
+    width: 249px;
+  }
+  
+  .web-bookmark-menu .home-tab-instance {
+    align-self: stretch !important;
+    width: 100% !important;
+  }
+  
+  .web-bookmark-menu .title {
+    color: #1c1b1f;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 800;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 81px;
+    width: 280px;
+  }
+  
+  /* Common Frame Style */
+  .web-bookmark-line {
+    align-self: stretch;
+    height: 2px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .web-bookmark-x-instance {
+    height: 20px !important;
+    left: unset !important;
+    position: relative !important;
+    top: unset !important;
+    width: 17px !important;
+  }
+
+/* Frame Style */
+.web-bookmark-Frame-div-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  padding: 5px 13px 5px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.web-bookmark-Frame-div-2 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.web-bookmark-Frame-text-1 {
+  white-space: pre-wrap; /* 줄바꿈과 공백을 반영 */
+  align-self: stretch;
+  color: var(--bananistyle);
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+  width: 500px;
+}
+
+.web-bookmark-Frame-cn-1 {
+  align-self: stretch;
+  color: #267bf1;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 16px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+  position: relative;
+  margin-top: 7px;
+}
+
+/* FrameForMobile Style */
+.mobile-bookmark-Frame-div-1 {
+  align-items: flex-start;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  padding: 10px 15px;
+  position: relative;
+  width: 100%;
+}
+
+.mobile-bookmark-Frame-div-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.mobile-bookmark-Frame-text-1 {
+  white-space: pre-wrap; /* 줄바꿈과 공백을 반영 */
+  align-self: stretch;
+  color: var(--bananistyle);
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  padding-left: 2px;
+  width: 95%;
+}
+
+.mobile-bookmark-Frame-cn-1 {
+  align-self: stretch;
+  color: #267bf1;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 16px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+  position: relative;
+  margin-top: 4px;
+  padding-left: 2px;
+}

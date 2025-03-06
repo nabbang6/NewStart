@@ -1,0 +1,44 @@
+  .headline {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /* 반응형 웹 */
+  .headline .div-3 { 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  @media (max-width: 1511px) {
+    .headline .div-3  { width: 100%; max-width: 390px; }
+  }
+  
+  @media (min-width: 1512px) {
+    .headline .div-3  { width: 100%; max-width: 1512px; }
+  }
+
+  .frame-for-all-mobile-headline {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 390px;
+    min-height: 94vh;
+    top:3vh;
+  }
+
+  /* PC용 스타일링은 너무 짧아서 components/Web_headline/style.css에 명시해두었습니다! */
+
+  /* PC용 탭 메뉴 */
+  .headline .frame-51 {
+    left: 0 !important;
+    position: fixed !important;
+    top: 0 !important;
+  }
+  

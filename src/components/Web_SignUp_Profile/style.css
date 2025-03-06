@@ -1,0 +1,49 @@
+/* CompleteButton Style */
+.sign-up-profile-state-disabled-wrapper {
+  border-radius: 10px;
+  height: 50px;
+  position: relative;
+  width: 380px;
+  transition: all 0.3s ease; /* 부드러운 상태 전환 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4d4d4; /* 기본 회색 */
+}
+
+.sign-up-profile-state-disabled-wrapper .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.sign-up-profile-state-disabled-wrapper.disabled-true {
+  background-color: #d4d4d4;
+}
+
+.sign-up-profile-state-disabled-wrapper.disabled-false {
+  background-color: #267bf1b2;
+}
+
+.sign-up-profile-state-disabled-wrapper:hover {
+  background-color: #267bf1;
+  box-shadow: 0px 2px 5px #0000001f;
+}
+
+/* User Style */
+.sign-up-profile-user {
+  height: 24px;
+  width: 24px;
+}
+
+.error-message {
+  color: #b3261e;
+  font-size: 13px;
+  top: 70px;
+  position: absolute;
+  padding: 0;
+  left: 0;
+}

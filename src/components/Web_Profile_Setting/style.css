@@ -1,0 +1,100 @@
+  /* ArrowLeft */
+  .arrow-left {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .arrow-left.thirty-two {
+    height: 32px;
+    width: 32px;
+  }
+  
+  .arrow-left.forty {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .arrow-left.twenty {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .arrow-left.sixteen {
+    height: 16px;
+    width: 16px;
+  }
+  
+  .arrow-left.forty-eight {
+    height: 48px;
+    width: 48px;
+  }
+  
+  .arrow-left.twenty-four {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Return */
+  .wps-frame {
+    height: 24px;
+    position: relative;
+    width: 187px;
+  }
+  
+  .wps-frame .text-wrapper {
+    color: #a09cab;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+  }
+  
+  /* CompleteButton */
+  .wps-state-disabled-wrapper {
+    border-radius: 10px;
+    height: 50px;
+    position: relative;
+    width: 350px;
+  }
+  
+  .wps-state-disabled-wrapper .div {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    left: 147px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    width: 59px;
+  }
+  
+  .wps-state-disabled-wrapper.disabled-true {
+    background-color: #d4d4d4;
+  }
+  
+  .wps-state-disabled-wrapper.disabled-false {
+    background-color: #267bf1b2;
+  }
+  
+  .wps-state-disabled-wrapper:hover {
+    background-color: #267bf1;
+    box-shadow: 0px 2px 5px #0000001f;
+  }
+  
+  /* User */
+  .wps-user {
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 24px;
+  }

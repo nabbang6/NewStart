@@ -1,0 +1,45 @@
+.login-state-disabled-wrapper {
+  border-radius: 10px;
+  height: 50px;
+  position: relative;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-state-disabled-wrapper .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+/* 비활성화 상태 */
+.login-state-disabled-wrapper.disabled-true {
+  background-color: #d4d4d4;
+}
+
+/* 활성화 상태 */
+.login-state-disabled-wrapper.disabled-false {
+  background-color: #267bf1b2;
+  cursor: pointer;
+}
+
+/* 활성화 상태에서 호버 효과 */
+.login-state-disabled-wrapper.disabled-false:hover {
+  background-color: #267bf1;
+  box-shadow: 0px 2px 5px #0000001f;
+}
+
+.error-message {
+  color: #b3261e;
+  font-size: 13px;
+  top: 70px;
+  position: absolute;
+  padding: 0;
+  left: 0;
+}

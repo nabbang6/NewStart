@@ -1,0 +1,469 @@
+  .web-profile-set {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /* 반응형 웹 */
+  .web-profile-set .div-3 { 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  @media (max-width: 1511px) {
+    .web-profile-set .div-3  { width: 100%; max-width: 390px; }
+  }
+  
+  @media (min-width: 1512px) {
+    .web-profile-set .div-3  { width: 100%; max-width: 1512px; }
+  }
+  
+  /* PC용 화면1 - Frame */
+  .web-profile-set .frame-2 {
+    position : absolute;
+    top: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 5vh;
+  }
+  
+  .web-profile-set .email-frame {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 242px;
+    justify-content: space-between;
+    width: 497px;
+  }
+  
+  .web-profile-set .profile {
+    height: 70px;
+    position: relative;
+    width: 70px;
+  }
+  
+  .web-profile-set .overlap-group-2 {
+    height: 70px;
+    position: relative;
+  }
+  
+  .web-profile-set .user-wrapper {
+    background-color: #d9d9d9;
+    border-radius: 33.87px;
+    height: 68px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 68px;
+  }
+  
+  .web-profile-set .camera {
+    background-color: #f5f5f5;
+    border-radius: 14.11px;
+    height: 28px;
+    left: 42px;
+    position: absolute;
+    top: 42px;
+    width: 28px;
+  }
+  
+  .web-profile-set .icon-3 {
+    height: 17px;
+    left: 5px;
+    position: absolute;
+    top: 6px;
+    width: 19px;
+  }
+  
+  .web-profile-set .email-text {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 82px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .web-profile-set .frame-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .web-profile-set .view-wrapper {
+    align-self: stretch;
+    height: 90px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .web-profile-set .view {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 497px;
+  }
+  
+  .web-profile-set .web-profile-text-wrapper-6 {
+    align-self: stretch;
+    color: #1c1b1f;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1.00px;
+    position: relative;
+  }
+  
+  .web-profile-set .web-profile-div-wrapper {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 8px;
+    position: relative;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-color: #b1b1b1;
+    border-radius: 5px;
+  }
+  
+  .web-profile-set .web-profile-text-wrapper-7 {
+    color: #767676;
+    flex: 1;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1.00px;
+    position: relative;
+  }
+  
+  .web-profile-set .frame-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .web-profile-set .frame-4 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .web-profile-set .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .web-profile-set .button {
+    font-size: 20px !important;
+    left: 209px !important;
+    width: 84px !important;
+  }
+  
+  .web-profile-set .component-210 {
+    width: 497px !important;
+  }
+  
+  .web-profile-set .nickname {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .web-profile-set .text-wrapper-9 {
+    color: #1c1b1f;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1.00px;
+    position: relative;
+    width: 79.52px;
+  }
+  
+  .web-profile-set .text-input {
+    background-color: transparent;
+    border: 0;
+    color: black;
+    flex: 0 0 auto;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .web-profile-set .text-input::placeholder {
+    border: 0;
+  }
+
+  .web-profile-set .line {
+    height: 1px;
+    margin-bottom: -0.20px;
+    position: relative;
+    width: 497px;
+  }
+  
+  /* PC용 탭 메뉴 */
+  .web-profile-set .menu-instance {
+    left: 0 !important;
+    position: fixed !important;
+    top: 0 !important;
+  }
+  
+  .web-profile-set .instance-node {
+    color: #a09cab !important;
+  }
+  
+  .web-profile-set .menu-2 {
+    color: #000000 !important;
+  }
+
+  /* 모바일 화면 */
+  .web-profile-set .frame-for-all-mobile-wps { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 390px;
+    width: 100%;
+    min-height:94vh;
+    position: relative;
+    top:3vh;
+    gap: 10vh;
+  }
+
+  .web-profile-set .frame-7 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+  }
+  
+  .web-profile-set .frame-50-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 10px;
+    position: relative;
+  }
+  
+  .web-profile-set .frame-50 {
+    font-size: 16px !important;
+  }
+  
+  .web-profile-set .title-wrapper {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    margin-top: -10px;
+    padding: 8px 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .web-profile-set .title-2 {
+    color: var(--bananistyle);
+    flex: 1;
+    font-family: "Inter", Helvetica;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1.00px;
+    position: relative;
+  }
+
+  .web-profile-set .frame-5 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    width: 350px;
+  }
+
+  .web-profile-set .overlap-group-wrapper {
+    height: 62px;
+    position: relative;
+    width: 62px;
+  }
+  
+  .web-profile-set .overlap-group-3 {
+    height: 62px;
+    position: relative;
+  }
+  
+  .web-profile-set .user-instance-wrapper {
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+  }
+  
+  .web-profile-set .icon-wrapper {
+    background-color: #f5f5f5;
+    border-radius: 12.5px;
+    height: 25px;
+    left: 37px;
+    position: absolute;
+    top: 37px;
+    width: 25px;
+  }
+  
+  .web-profile-set .icon-4 {
+    height: 15px;
+    left: 4px;
+    position: absolute;
+    top: 5px;
+    width: 17px;
+  }
+  
+  .web-profile-set .frame-6 {
+    align-self: stretch;
+    height: 150px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .web-profile-set .view-2 {
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    width: 354px;
+  }
+  
+  .web-profile-set .text-wrapper-11 {
+    color: #1c1b1f;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .web-profile-set .text-wrapper-12 {
+    color: black;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 32px;
+    white-space: nowrap;
+    width: 100%;
+    border : 0;
+  }
+    
+  .web-profile-set .text-wrapper-12::placeholder {
+    color: #a09cab;
+  }
+
+  .web-profile-set .line-2 {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 59px;
+    width: 350px;
+  }
+  
+  .web-profile-set .overlap-2 {
+    height: 61px;
+    left: -1px;
+    position: absolute;
+    top: 0;
+    width: 352px;
+  }
+  
+  .web-profile-set .rectangle-2 {
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-color: #b1b1b1;
+    border-radius: 5px;
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 30px;
+    width: 352px;
+  }
+  
+  .web-profile-set .view-3 {
+    height: 58px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 198px;
+  }
+  
+  .web-profile-set .text-wrapper-13 {
+    color: #767676;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 34px;
+    white-space: nowrap;
+  }
+  
+  .web-profile-set .component-210-instance {
+    position: fixed !important;
+    bottom: 5%;
+  }
+  

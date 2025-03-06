@@ -1,0 +1,192 @@
+  .search-screen {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /* 반응형 웹 */
+  .search-screen .search-2 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  @media (max-width: 1511px) {
+    .search-screen .search-2  { width: 100%; max-width: 390px; }
+  }
+  
+  @media (min-width: 1512px) {
+    .search-screen .search-2  { width: 100%; max-width: 1512px; }
+  }
+
+  
+  /* PC용 화면 */
+  .search-screen .for-pc-screen {
+    position : relative;
+    top: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 4vh;
+  }
+  
+  .search-screen .title-frame {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width:100%;
+  }
+  
+  .search-screen .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  .search-screen .search-result-frame-web-search {
+    gap : 10px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .search-screen .text-wrapper-for-web-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .search-screen .text-wrapper-2-for-web-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap:10px;
+  }
+
+  .search-screen .text-wrapper-6-for-bookmark {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .search-screen .div-3 {
+      align-self: center;
+      background-color: #267bf1;
+      height: 5px;
+      position: relative;
+      width: 93%;
+  }
+
+  
+  .search-screen .for-pc-screen .div-3 {
+    align-self: center;
+    background-color: #267bf1;
+    height: 5px;
+    width: 550px;
+}
+
+  .search-screen .menu-instance {
+    left: 0 !important;
+    position: fixed !important;
+    top: 0 !important;
+  }
+
+  /* 모바일용 화면 */
+  .search-screen .for-mobile-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 390px;
+    width: 100%;
+    min-height:94vh;
+    position: relative;
+    top:3vh;
+    margin-bottom: 5vh;
+  }
+
+  .search-screen .for-mobile-title-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 390px;
+  }
+
+  .search-screen .for-mobile-title-wrapper {
+  }
+  
+  .search-screen .title-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+    position: relative;
+    max-width: 390px;
+    width: 100%;
+  }
+  
+  .search-screen .title-3 {
+    color: var(--bananistyle);
+    flex: 1;
+    font-family: "Inter", Helvetica;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1.00px;
+    position: relative;
+  }
+  .search-screen .search-bar-for-mobile {
+    width: 90%;
+  }
+
+  .search-screen .text-wrapper-6-for-bookmark-for-mobile {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .search-screen .search-result-frame-web-search-for-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .search-screen .text-wrapper-2-for-web-search-for-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+

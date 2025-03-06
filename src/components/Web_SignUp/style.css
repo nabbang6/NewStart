@@ -1,0 +1,123 @@
+/* Terms Style */
+.web-signup-on {
+  height: 20px;
+  width: 20px;
+}
+
+.web-signup-on .class {
+  background-color: #767676 !important;
+}
+
+.web-signup-on .class-2 {
+  position: unset !important;
+  width: unset !important;
+}
+
+.web-signup-on .class-3 {
+  width: 20px !important;
+}
+
+.web-signup-on .class-4 {
+  border-color: #a09cab !important;
+}
+
+/* RadioButton Style */
+.web-signup-radio-button {
+  position: relative;
+}
+
+.web-signup-radio-button .frame {
+  height: 20px;
+}
+
+.web-signup-radio-button .overlap-group {
+  border: 2px solid;
+  border-radius: 12px;
+  height: 24px;
+  left: -2px;
+  position: relative;
+  top: -2px;
+  width: 24px;
+}
+
+.web-signup-radio-button .ellipse {
+  background-color: #24a0ed;
+  border-radius: 7.5px;
+  height: 15px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 15px;
+}
+
+.web-signup-radio-button.on-off-false {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+}
+
+.web-signup-radio-button.on-off-true {
+  height: 20px;
+  width: 20px;
+}
+
+.web-signup-radio-button.on-off-false .frame {
+  position: relative;
+  width: 20px;
+}
+
+.web-signup-radio-button.on-off-false .overlap-group {
+  border-color: #808080;
+}
+
+.web-signup-radio-button.on-off-true .overlap-group {
+  border-color: #24a0ed;
+}
+
+/* NextButton */
+/* 기본 스타일 */
+.web-signup-state-disabled-wrapper {
+  border-radius: 10px;
+  height: 50px;
+  position: relative;
+  width: 380px;
+  background-color: #d4d4d4; /* 기본 회색 */
+  transition: all 0.3s ease; /* 부드러운 상태 전환 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 텍스트 스타일 */
+.web-signup-state-disabled-wrapper .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+/* 활성화 상태 */
+.web-signup-state-disabled-wrapper.active {
+  background-color: #267bf1b2; /* 연한 파랑 */
+}
+
+.web-signup-state-disabled-wrapper.active:hover {
+  background-color: #267bf1; /* 진한 파랑 */
+  box-shadow: 0px 2px 5px #0000001f; /* 호버 시 그림자 효과 */
+}
+
+/* 비활성 상태에서 호버 효과 제거 */
+.web-signup-state-disabled-wrapper:hover:not(.active) {
+  background-color: #d4d4d4; /* 비활성 상태에서는 항상 회색 유지 */
+}
+
+.error-message {
+  color: #b3261e;
+  font-size: 13px;
+  top: 70px;
+  position: absolute;
+  padding: 0;
+  left: 0;
+}

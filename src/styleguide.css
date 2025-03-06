@@ -1,0 +1,254 @@
+
+  :root {
+    --bananistyle: rgba(28, 27, 31, 1);
+    --collection-1-sign-up-color: rgba(212, 212, 212, 1);
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+    --system-colors-colors-green: rgba(52, 199, 89, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.16);
+  }
+
+  /* ForSummary */
+  :root {
+    --bananistyle: rgba(28, 27, 31, 1);
+    --body-regular-font-family: "SF Pro", Helvetica;
+    --body-regular-font-size: 17px;
+    --body-regular-font-style: normal;
+    --body-regular-font-weight: 400;
+    --body-regular-letter-spacing: -0.4300000071525574px;
+    --body-regular-line-height: 22px;
+    --collection-1-sign-up-color: rgba(212, 212, 212, 1);
+    --subheadline-regular-font-family: "SF Pro", Helvetica;
+    --subheadline-regular-font-size: 15px;
+    --subheadline-regular-font-style: normal;
+    --subheadline-regular-font-weight: 400;
+    --subheadline-regular-letter-spacing: -0.23000000417232513px;
+    --subheadline-regular-line-height: 20px;
+    --system-colors-colors-blue: rgba(0, 122, 255, 1);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.12);
+    --system-colors-grays-white: rgba(255, 255, 255, 1);
+    --system-colors-labels-tertiary: rgba(60, 60, 67, 0.3);
+    --system-colors-miscellaneous-button-disabeld-BG: rgba(118, 118, 128, 0.12);
+    --system-colors-miscellaneous-button-tinted-fill: rgba(0, 122, 255, 0.15);
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-m3-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+  /* ForSignUp, ProfileTab_Setting, Login */
+  [data-m3-mode="light"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="light-high-contrast"] {
+    --m3-schemes-error: rgba(68, 15, 14, 1);
+  }
+  
+  [data-m3-mode="light-medium-contrast"] {
+    --m3-schemes-error: rgba(110, 47, 44, 1);
+  }
+  
+  [data-m3-mode="dark"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="dark-high-contrast"] {
+    --m3-schemes-error: rgba(255, 249, 249, 1);
+  }
+  
+  [data-m3-mode="dark-medium-contrast"] {
+    --m3-schemes-error: rgba(255, 185, 179, 1);
+  }
+  
+  [data-m3-mode="monochrome-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="monochrome-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="pink-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="pink-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="rose-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="rose-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="red-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="red-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="orange-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="orange-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="yellow-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="yellow-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="chartreuse-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="chartreuse-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="green-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="green-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="teal-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="teal-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="cyan-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="cyan-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="blue-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="blue-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="indigo-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="indigo-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  [data-m3-mode="purple-LT"] {
+    --m3-schemes-error: rgba(179, 38, 30, 1);
+  }
+  
+  [data-m3-mode="purple-DT"] {
+    --m3-schemes-error: rgba(242, 184, 181, 1);
+  }
+  
+  /* ForProfileTab */
+  [data-system-colors-mode="light"] {
+    --system-colors-colors-green: rgba(52, 199, 89, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.16);
+  }
+  
+  [data-system-colors-mode="dark"] {
+    --system-colors-colors-green: rgba(48, 209, 88, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.32);
+  }
+  
+  [data-system-colors-mode="dark-elevated"] {
+    --system-colors-colors-green: rgba(48, 209, 88, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.32);
+  }
+  
+  [data-system-colors-mode="IC-light"] {
+    --system-colors-colors-green: rgba(36, 138, 61, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.24);
+  }
+  
+  [data-system-colors-mode="IC-dark"] {
+    --system-colors-colors-green: rgba(48, 219, 91, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.4);
+  }
+  
+  [data-system-colors-mode="IC-dark-elevated"] {
+    --system-colors-colors-green: rgba(48, 219, 91, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.4);
+  }
+
+  /* ForSummary */
+  [data-system-colors-mode="light"] {
+    --system-colors-colors-blue: rgba(0, 122, 255, 1);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.12);
+    --system-colors-labels-tertiary: rgba(60, 60, 67, 0.3);
+    --system-colors-miscellaneous-button-disabeld-BG: rgba(118, 118, 128, 0.12);
+    --system-colors-miscellaneous-button-tinted-fill: rgba(0, 122, 255, 0.15);
+  }
+  
+  [data-system-colors-mode="dark"] {
+    --system-colors-colors-blue: rgba(10, 132, 255, 1);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.24);
+    --system-colors-labels-tertiary: rgba(235, 235, 245, 0.3);
+    --system-colors-miscellaneous-button-disabeld-BG: rgba(118, 118, 128, 0.25);
+    --system-colors-miscellaneous-button-tinted-fill: rgba(10, 132, 255, 0.15);
+  }
+  
+  [data-system-colors-mode="dark-elevated"] {
+    --system-colors-colors-blue: rgba(10, 132, 255, 1);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.24);
+    --system-colors-labels-tertiary: rgba(235, 235, 245, 0.3);
+    --system-colors-miscellaneous-button-disabeld-BG: rgba(118, 118, 128, 0.25);
+    --system-colors-miscellaneous-button-tinted-fill: rgba(10, 132, 255, 0.15);
+  }
+  
+  [data-system-colors-mode="IC-light"] {
+    --system-colors-colors-blue: rgba(0, 64, 221, 1);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.2);
+    --system-colors-labels-tertiary: rgba(60, 60, 67, 0.7);
+    --system-colors-miscellaneous-button-disabeld-BG: rgba(118, 118, 128, 0.18);
+    --system-colors-miscellaneous-button-tinted-fill: rgba(0, 64, 221, 0.18);
+  }
+  
+  [data-system-colors-mode="IC-dark"] {
+    --system-colors-colors-blue: rgba(64, 156, 255, 1);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.32);
+    --system-colors-labels-tertiary: rgba(235, 235, 245, 0.55);
+    --system-colors-miscellaneous-button-disabeld-BG: rgba(255, 255, 255, 0.14);
+    --system-colors-miscellaneous-button-tinted-fill: rgba(64, 156, 255, 0.25);
+  }
+  
+  [data-system-colors-mode="IC-dark-elevated"] {
+    --system-colors-colors-blue: rgba(64, 156, 255, 1);
+    --system-colors-fills-tertiary: rgba(120, 120, 128, 0.32);
+    --system-colors-labels-tertiary: rgba(235, 235, 245, 0.55);
+    --system-colors-miscellaneous-button-disabeld-BG: rgba(255, 255, 255, 0.14);
+    --system-colors-miscellaneous-button-tinted-fill: rgba(64, 156, 255, 0.25);
+  }
+  
