@@ -53,13 +53,15 @@
    - 오늘의 1분 요약: 클릭 시 뉴스 숏폼 화면으로 이동
    - 최신 헤드라인: 뉴스 카테고리 별 조회수가 가장 높은 기사 3개씩 제공 <br /> 클릭 시 기사 본문(헤드라인 기사 페이지)으로 이동
      
-![013](https://github.com/user-attachments/assets/597ee46b-5159-44bd-aee2-4ff29c0fceca)
+![013](https://github.com/user-attachments/assets/fa1bbe8d-191e-417e-b2cc-38a19a92414b)
+
 
 ### 3. 1분 요약
    -  뉴스 카테고리 별 가장 조회수가 높은 기사 1개씩 요약해 **숏폼 컨텐츠**로 제공
    -  원문 읽기: 클릭 시 기사 원문 링크로 이동
      
-![015](https://github.com/user-attachments/assets/6d2c1c7a-d5e4-49ef-beca-3068d0a8f840)
+![015](https://github.com/user-attachments/assets/de830efc-f381-43f8-a23a-d45d3ae63e74)
+
 
 ### 4. 헤드라인 기사 & 북마크 
    - 헤드라인 기사: 사용자가 선택한 헤드라인 기사 본문
