@@ -1,307 +1,309 @@
-  .web-main {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    min-height: 100vh;
-  }
-  
-  /* 반응형 웹 */
+.web-main {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* 반응형 웹 */
+.web-main .div-3 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+@media (max-width: 1511px) {
   .web-main .div-3 {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-  @media (max-width: 1511px) {
-    .web-main .div-3  { width: 100%; max-width: 390px; }
-  }
-  
-  @media (min-width: 1512px) {
-    .web-main .div-3  { width: 100%; max-width: 1512px; }
-  }
-
-  /* 모바일용 화면 */
-  .web-main .mobile-frame-4 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 6vh;
-    width: 100%;
-    max-width: 390px;
-    padding-bottom: 90px;
-    position: relative;
-    top:2.5vh;
-  }
-
-  .web-main .main-view-for-mobile {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
     width: 100%;
     max-width: 390px;
   }
+}
 
-  .main-folder-for-mobile {
-    background-image: url(https://c.animaapp.com/zuoomGM9/img/free-icon-open-folder-5082720-1-1@2x.png);
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 176px;
-    position: relative;
-    width: 195px;
-  }
-
-  .web-main .main-headline-wrapper-for-mobile {
-    display: flex;
-    flex-direction: column;
-    position: relative;
+@media (min-width: 1512px) {
+  .web-main .div-3 {
     width: 100%;
-    max-width: 390px;
-    align-items: center;
+    max-width: 1512px;
   }
+}
 
-  .web-main .main-headline-for-mobile {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 390px;
-    padding: 0px 16px;
-  }
+/* 모바일용 화면 */
+.web-main .mobile-frame-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+  width: 100%;
+  max-width: 390px;
+  padding-bottom: 90px;
+  position: relative;
+  top: 2.5vh;
+}
 
-  .web-main .title-3 {
-    align-self: stretch;
-    color: #1c1b1f;
-    font-family: "Inter", Helvetica;
-    font-size: 36px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: 40px;
-    margin-top: -1.00px;
-    position: relative;
-    white-space: nowrap;
-    width: 421.06px;
-  }
+.web-main .main-view-for-mobile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  width: 100%;
+  max-width: 390px;
+}
 
-  .web-main .title-3.title-3-for-mobile-font {
-    font-size: 30px;
-  }
-  
-  .web-main .text-wrapper-12 {
-    color: #a09cab;
-    font-family: "Inter", Helvetica;
-    font-size: 20px;
-    font-weight: 600;
-    height: 46.36px;
-    letter-spacing: 0;
-    line-height: 40px;
-    margin-top: -1.00px;
-    position: relative;
-    text-align: right;
-    white-space: nowrap;
-    width: 84px;
-  }
-  
-  .web-main .main-category-wrapper-for-mobile {
-    display: flex;
-    flex-direction: column;
-    max-width: 366px;
-    padding: 10px 0px;
-    position: relative;
-    width: 100%;
-    overflow-x: hidden;
-  }
+.main-folder-for-mobile {
+  background-image: url("../../../public/news.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 195px;
+  position: relative;
+  width: 195px;
+}
+
+.web-main .main-headline-wrapper-for-mobile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  max-width: 390px;
+  align-items: center;
+}
+
+.web-main .main-headline-for-mobile {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 390px;
+  padding: 0px 16px;
+}
+
+.web-main .title-3 {
+  align-self: stretch;
+  color: #1c1b1f;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 421.06px;
+}
+
+.web-main .title-3.title-3-for-mobile-font {
+  font-size: 30px;
+}
+
+.web-main .text-wrapper-12 {
+  color: #a09cab;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  height: 46.36px;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: 84px;
+}
+
+.web-main .main-category-wrapper-for-mobile {
+  display: flex;
+  flex-direction: column;
+  max-width: 366px;
+  padding: 10px 0px;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
 /* 
   .web-main .frame-2.web-main-category-size-jojung {
     padding-left:11px
   } */
 
-  /* PC용 화면 */
-  .web-main .frame-4 {
-    position : absolute;
-    top: 3vh;
+/* PC용 화면 */
+.web-main .frame-4 {
+  position: absolute;
+  top: 3vh;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap : 5vh;
-    padding-bottom: 2.5vh;
-  }
-  
-  .web-main .view {
-    align-items: center;
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-    width: 100%;
-  }
-  
-  .web-main .frame-5 {
-    align-items: flex-start;
-    align-self: stretch;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    padding: 12px 16px;
-    position: relative;
-    width: 100%;
-  }
-  
-  .web-main .title-2 {
-    align-self: stretch;
-    color: #1c1b1f;
-    font-family: "Inter", Helvetica;
-    font-size: 36px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: 40px;
-    margin-top: -1.00px;
-    position: relative;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  padding-bottom: 2.5vh;
+}
 
-  .web-main .title-2.title-2-for-mobile {
-    font-size: 30px;
-  }
+.web-main .view {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  width: 100%;
+}
 
-  .web-main .div.tosummary-font-for-mobile {
-    font-size: 18px;
-  }
+.web-main .frame-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 12px 16px;
+  position: relative;
+  width: 100%;
+}
 
-  .web-main .div.tosummary-font-for-mobile .text-wrapper {
-    font-size: 18px;
-  }
+.web-main .title-2 {
+  align-self: stretch;
+  color: #1c1b1f;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-top: -1px;
+  position: relative;
+}
 
-  .web-main .arrow-right.arrow-size-for-mobile {
-    height: 20px;
-    width: 20px;
-  }
-  
-  .web-main .component-374 {
-    flex: 0 0 auto !important;
-    padding: unset !important;
-  }
-  
-  .web-main .folder {
-    background-image: url(https://c.animaapp.com/zuoomGM9/img/free-icon-open-folder-5082720-1-1@2x.png);
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 243px;
-    position: relative;
-    width: 269px;
-  }
-  
-  .web-main .line-2 {
-    height: 1px;
-    margin-bottom: -1.00px;
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-  }
-  
-  .web-main .headlinewrapperforpc {
+.web-main .title-2.title-2-for-mobile {
+  font-size: 30px;
+}
 
-  }
+.web-main .div.tosummary-font-for-mobile {
+  font-size: 18px;
+}
 
-  .web-main .headline-2 {
-    align-items: flex-end;
-    display: flex;
-    flex: 0 0 auto;
-    justify-content: space-between;
-    padding: 10px 0px;
-    position: relative;
-    width: 100%;
-  }
+.web-main .div.tosummary-font-for-mobile .text-wrapper {
+  font-size: 18px;
+}
 
-  .web-main .text-wrapper-12-for-pc {
-    color: #a09cab;
-    font-family: "Inter", Helvetica;
-    font-size: 20px;
-    font-weight: 600;
-    height: 46.36px;
-    letter-spacing: 0;
-    line-height: 40px;
-    margin-top: -1.00px;
-    position: relative;
-    text-align: right;
-    white-space: nowrap;
-    width: 84px;
-  }
-  
-  .web-main .menu-bar-wrapper {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    max-width: 537px;
-    overflow-x: hidden;
-    padding: 10px 0px;
-    position: relative;
-    width: 100%;
-  }
+.web-main .arrow-right.arrow-size-for-mobile {
+  height: 20px;
+  width: 20px;
+}
 
-  
-  .web-main .web-main-headline.headlineforpc {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.web-main .component-374 {
+  flex: 0 0 auto !important;
+  padding: unset !important;
+}
 
-    border: 1px solid;
-    border-color: #b1b1b1;
-    border-radius: 10px;
-    width: 100%;
-    height: 133px;
+.web-main .folder {
+  background-image: url("../../../public/news.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 269px;
+  position: relative;
+  width: 269px;
+}
 
-    margin-top : 21px;
-  }
+.web-main .line-2 {
+  height: 1px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
 
-  .web-main .number.headlinenumberforpc {
-    font-family: "Inter", Helvetica;
-    font-weight: 300;
-    letter-spacing: -5.12px;
-    line-height: 0.1px;
-    position: relative;
-    text-align: center;
-    font-size: 64px;
-  }
+.web-main .headlinewrapperforpc {
+}
 
-  .web-main .text-group.headlinetextGroupforpc {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex: 0 0 auto; /* 여기서만 이 거 엄청중요하네.. */
+.web-main .headline-2 {
+  align-items: flex-end;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 10px 0px;
+  position: relative;
+  width: 100%;
+}
 
-    position: relative;
-    width : 400px;
-  }
+.web-main .text-wrapper-12-for-pc {
+  color: #a09cab;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  height: 46.36px;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: 84px;
+}
 
-  .web-main-headline .label.headlineTextforpc {
-    font-family: "Inter", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: 28px;
-  }
+.web-main .menu-bar-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  max-width: 537px;
+  overflow-x: hidden;
+  padding: 10px 0px;
+  position: relative;
+  width: 100%;
+}
 
-  .web-main-headline .label-2.headlineNewspaperforpc {
-    align-self: stretch;
-    font-family: "Inter", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    height: 16px;
-    letter-spacing: 0;
-    line-height: 0.1px;
-    position: relative;
-    top:7px;
-    padding-left:10px
-  }
-  
+.web-main .web-main-headline.headlineforpc {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
-  /* PC용 네비게이터 */
-  .web-main .frame-51 {
-    left: 0 !important;
-    position: absolute !important;
-    top: 0 !important;
-  }
-  
+  border: 1px solid;
+  border-color: #b1b1b1;
+  border-radius: 10px;
+  width: 100%;
+  height: 133px;
+
+  margin-top: 21px;
+}
+
+.web-main .number.headlinenumberforpc {
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  letter-spacing: -5.12px;
+  line-height: 0.1px;
+  position: relative;
+  text-align: center;
+  font-size: 64px;
+}
+
+.web-main .text-group.headlinetextGroupforpc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0 0 auto; /* 여기서만 이 거 엄청중요하네.. */
+
+  position: relative;
+  width: 400px;
+}
+
+.web-main-headline .label.headlineTextforpc {
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.web-main-headline .label-2.headlineNewspaperforpc {
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 16px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+  position: relative;
+  top: 7px;
+  padding-left: 10px;
+}
+
+/* PC용 네비게이터 */
+.web-main .frame-51 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
